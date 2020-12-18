@@ -1,4 +1,5 @@
 package br.com.digitalhouse.Aula101311
 
-class Ingresso {
+abstract class Ingresso(val valor: Double, ) {
+    abstract fun imprimirValor()
 }

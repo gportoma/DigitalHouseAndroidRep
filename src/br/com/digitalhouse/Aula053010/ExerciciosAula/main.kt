@@ -51,8 +51,8 @@ fun ex5() {
 //Ex 6
 fun ex6(){
     val arraylis = arrayListOf(12, 10, 250, 31)
-    for (array in arraylis) {
-        if (array % 2 == 0)
-            print(" $array")
+    for (num in arraylis) {
+        if (num % 2 == 0)
+            print(" $num")
     }
 }
